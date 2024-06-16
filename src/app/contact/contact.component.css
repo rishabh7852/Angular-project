@@ -1,0 +1,170 @@
+.RegisterForm {
+    background-color: rgba(119, 254, 0, 0.052);
+    box-shadow: 10px 10px 20px #36fe04d0;
+    height: 450px;
+    width: 50%;
+    margin-left: 23%;
+    margin-top: 55px;
+    position: relative;
+}
+
+.Register-title {
+    margin-top: 30px;
+    margin-left: 310px;
+    position: absolute;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px #000000d0;
+
+}
+
+#filed {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 85px;
+    width: 30%;
+    background: transparent;
+    padding-left: 30px;
+}
+
+.icon1 {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 92px;
+    
+ 
+}
+
+#filed-two {
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 60px;
+    width: 28%;
+    background: transparent;
+    padding-left: 30px;
+
+}
+
+.icon2 {
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 66px;
+}
+
+
+#filed-three {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 140px;
+    width: 60%;
+    background: transparent;
+    padding-left: 35px;
+}
+
+.icon3 {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 102px;
+
+}
+
+#filed-four {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 140px;
+    width: 60%;
+    background: transparent;
+    padding-left: 30px;
+}
+
+.icon4 {
+    position: absolute;
+    margin-left: 155px;
+    margin-top: 126px;
+}
+
+#filed-five {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 140px;
+    width: 60%;
+    background: transparent;
+    padding-left: 30px;
+}
+
+.icon5 {
+    position: absolute;
+    margin-top: 155px;
+    margin-left: 155px;
+
+}
+
+input::placeholder {
+    color: rgba(66, 69, 69, 0.589);
+
+}
+
+.btn {
+    margin-top: 220px;
+    position: absolute;
+    margin-left: 280px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.login{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 355px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.errorMsg{
+    color: red;
+    font-size: 10px;
+    margin-left: 35px;
+    margin-top: 2px;
+    position: absolute;
+}
+.errorLast{
+    color: red;
+    font-size: 10px;
+    margin-left: 600px;
+    margin-top: 100px;
+    position: absolute;
+}
+.errorEmail{
+    color: red;
+    font-size: 10px;
+    margin-left: 35px;
+    margin-top:130px;
+    position: absolute;
+}
+.errorPhone{
+    color: red;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top:160px;
+    position: absolute;
+}
+.errorPassword{
+    color: red;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top:190px;
+    position: absolute;
+}
+
+@media(max-width:800px){
+    .RegisterForm{
+        height: 450px;
+        width: 50%;
+        margin-left: 40%;
+        /* margin-top: 55px; */
+        position: relative;
+        
+    
+       
+    }
+
+}

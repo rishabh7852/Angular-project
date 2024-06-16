@@ -1,0 +1,65 @@
+<!-- <p>contact works!</p> -->
+
+<app-header></app-header>
+
+<div class="RegisterForm">
+    <h3 class="Register-title">Register</h3>
+    <div class="form-group">
+        <label for="uname"></label>
+        <input id="filed" type="text" name="uname" placeholder="First Name" class="form-control"
+            [(ngModel)]="FirstName">
+        <div class="icon1">
+            <i class="fa-solid fa-user fa-2xs" style="color: #b3b8c2;"></i>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="lname"></label>
+        <input type="text" id="filed-two" placeholder="Last Name" name="uname" class="form-control"
+            [(ngModel)]="LastName">
+        <div class="icon2">
+            <i class="fa-solid fa-user fa-2xs" style="color: #b3b8c2;"></i>
+        </div>
+        <span class="errorLast">{{errorLast}}</span>
+
+
+    </div>
+    <div class="form-group">
+        <label for="email"></label>
+        <input type="text" id="filed-three" name="uname" placeholder="Email id" class="form-control"
+            [(ngModel)]="Email">
+        <div class="icon3">
+            <i class="fa-solid fa-envelope fa-2xs" style="color: #b3b8c2;"></i>
+        </div>
+        <span class="errorEmail">{{errorEmail}}</span>
+    </div>
+    <div class="form-group">
+        <label for="Number"></label>
+        <input type="PhoneNumber" id="filed-four" name="PhoneNumber" placeholder="PhoneNumber" class="form-control"
+            [(ngModel)]="PhoneNumber">
+        <div class="icon4">
+            <i class="fa-solid fa-phone fa-2xs" style="color: #a8b0bd;"></i>
+
+        </div>
+        <span class="errorPhone">{{errorPhone}}</span>
+    </div>
+
+    <div class="form-group">
+        <label for="password"></label>
+        <input type="password" name="password" id="filed-five" placeholder="Password" class="form-control"
+            [(ngModel)]="Password">
+        <div class="icon5">
+
+            <i class="fa-solid fa-lock fa-2xs" style="color: #a8b0bd;"></i>
+        </div>
+        <span class="errorPassword">{{errorPassword}}</span>
+    </div>
+    <div class="btn-containerbox">
+        <span class="errorMsg">{{errorMsg}}</span>
+        <button class="btn btn-primary" (click)="RegisterForm()">Register</button>
+    </div>
+    <div class="login"><a href="">Login</a></div>
+
+</div>
+<br>
+<app-footer></app-footer>

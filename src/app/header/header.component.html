@@ -1,0 +1,26 @@
+<div class="header-container">
+      
+    <div class="logo">Movies.com</div>
+
+    <div class="menue">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/Home" id="nav-icon-link" routerLinkActive="active"
+              ariaCurrentWhenActive="page" [routerLinkActiveOptions]="{exact:true}">Home</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/movie" id="nav-icon-link" routerLinkActive="active"
+              ariaCurrentWhenActive="page">Movies</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/about" id="nav-icon-link" routerLinkActive="active"
+              ariaCurrentWhenActive="page">About</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/Registration" id="nav-icon-link" routerLinkActive="active"
+              ariaCurrentWhenActive="page">Registration</a>
+          </li>
+    </div>
+  
+      
+    <div class="logout" (click)="closeApp()">logout</div>
+</div>

@@ -1,0 +1,28 @@
+<div class="loging-container">
+    <img class="news" src="../../assets/images/pexels-bertellifotografia-13871571.jpg" alt="">
+    <div class="logo-inside">Movies.com...</div>
+    <div class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto deleniti quidem illum eveniet
+        in voluptatibus magnam dolorem reprehenderit recusandae soluta rem vero aut doloremque possimus cumque, non
+        eaque molestias porro. Perspiciatis illum saepe adipisci debitis facilis, veritatis mollitia nulla autem nostrum
+        quos ipsam quasi obcaecati tenetur repudiandae quas natus, beatae cumque. Placeat consequuntur possimus sint,
+        quas ipsa ut quia eligendi?</div>
+     
+    <div class="login-form">
+        <h3 class="login-Title">Login</h3>
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="Username"/>
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="Password"/>
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-danger"(click)="login()">Login</button>
+        </div>
+
+
+
+    </div>
+</div>
